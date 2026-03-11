@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=MapBiomas Style
+description=Aplica a simbologia do MapBiomas e calcula áreas (ha, km²) e porcentagem de cobertura.
+version=0.1
+qgisMinimumVersion=3.0
+author=Ana Isaura Assis
+email=anaisauraassis@gmail.com
+
+about=MapBiomas Style aplica automaticamente a simbologia de uso e cobertura do solo do MapBiomas na camada ativa do QGIS com base no campo de identificação "DN" ou "Uso". Além disso, calcula a área de cada categoria em hectares (ha) e km², e mostra a porcentagem de cobertura relativa, facilitando análises de geoprocessamento e planejamento ambiental.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python, qgis, gis, mapbiomas, uso do solo, área, geoprocessamento
+
+homepage=www.linkedin.com/in/anaisauraassis
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
